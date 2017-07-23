@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>HexwellC - Project Hosts</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<?php
+		include "navbar";
+	?>
+	<div class="body">
+		<p class="pagename">
+			Hosts project - block 'em all!
+		</p>
+		<p>
+			Hosts project aims to create an ultimate list of potentially unwanted websites. It doesn't aims to block telemetry, but to teach you how to stop leaking information.
+		</p>
+		<p>
+			<b>Downloads:</b><br/>
+			<ul>
+  				<li><a href="hosts.xz">Hosts file (compressed)</a></li>
+  				<li><a href="hosts.sha512">SHA512 checksum</a> (<?php include "hosts.sha512"; ?>)</li>
+  				<li><a href="hosts.sig">Signature</a></li>
+			</ul>  
+		</p>
+	</div>
+</body>
+</html>
