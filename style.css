@@ -1,0 +1,62 @@
+body {
+    overflow-x: hidden;
+    background-color: #afafaf;
+}
+
+h1 {
+    font-size: 1.25em;
+}
+
+header {
+    font-weight: bold;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding-left: 25px;
+    margin: auto;
+    background-color: #303030;
+    color: #eee;
+    font-size: 1.25em;
+}
+
+header a {
+    text-decoration: none;
+    color: #eee;
+    transition: color 0.2s;
+}
+
+header a:hover {
+    color: #fff;
+}
+
+.body {
+    position: relative;
+    top: 1.50em;
+    padding: 20px;
+}
+
+footer {
+    margin-top: 50px;
+}
+
+.body dt {
+    font-weight: bold;
+    font-size: 1.05em;
+}
+
+.body dd {
+    margin-left: 15px;
+    margin-bottom: 5px;
+}
+
+a {
+    text-decoration: none;
+    transition: color 0.25s ease;
+    color: #08088A;
+}
+
+a:hover {
+    color: #120A2A;
+    transition: color 0.5s ease;
+}
