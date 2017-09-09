@@ -1,6 +1,8 @@
 body {
     overflow-x: hidden;
     background-color: #afafaf;
+    margin-left: 13%;
+    margin-right: 13%;
 }
 
 h1 {
@@ -37,7 +39,8 @@ header a:hover {
 }
 
 footer {
-    margin-top: 50px;
+    margin-top: 52px;
+    text-align: center;
 }
 
 .body dt {
