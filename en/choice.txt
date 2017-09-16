@@ -1,0 +1,18 @@
+# Response to Adam Jackson's mail
+# https://www.redhat.com/archives/fedora-devel-list/2008-January/msg00861.html
+
+If Linux wasn't about choice, you wouldn't been able even to know RedHat. Yes, Linux 
+_is_ about choice, and you just don't want to realize the truth. Linux _was_ created for 
+making choices instead of listening to the OS owners. That's how entire open source 
+software ecosystem works - each user has a choice.
+
+As a consumer, yes, you have lots of choices. Period. And you should always have. 
+Independently from distros. Distros owners shouldn't push their point of view, they are 
+just voluntary slaves. Software _is_ hard and you cannot just force users to use 
+PulseAudio like Firefox do. It's time to stop. Software ought to be hard. You are 
+allowed to simplify it, but we're all will be paying a price.
+
+Yes, you should ship everything and let the user choose. Yes, this is cancer. Deal with 
+it, choice is always a cancer, but you cannot just carve up it like a regular cancer. 
+Linux is about true democracy and liberalism, and what you're doing is actually 
+infringement of human rights. It's time to stop.
