@@ -1,0 +1,29 @@
+In August, there was an insightful talk titled "The Factoring Dead: Preparing
+for the Cryptopocalypse". They discussed the inevitable fall of RSA crypto 
+because of it's weakness to the quantum algorithms. It sounds unreal but we 
+should take this imminent threat seriously, but moving toward
+ECC (elliptic curve cryptography) has it's own troubles:
+
+1. "The RSA way" is dangerous. Relyinng on ANY single algorithm is a risk 
+nobody can afford to take on the internet. That's pretty obvious, and 
+leading scientists has been saying the same for a while (William Whyte, 
+for example)
+
+2. EEC is doomed when quantum computers will arrive. It's not fully resistant 
+and it's dangerous to rely on it.
+
+Today, when we have free processing power and free channel capacity, it's 
+dangerous to have a jerk saying "the algorithm we all depend on today is 
+looking shaky - let's all go epend solely on a different algorithm!". We 
+should take advandage of modern processors and bandwidgth and think how we 
+build and Internet that is cryptographically robust, even if one of trusted 
+algorithms gets broken. If not, we're going to stuck in a cancerous loop. 
+It's exponentially crazy to rely entirely on ECC as a single algorithm. The 
+correct way to go is to create a modular protocol with multiple algorithms
+running in parallel, for example, ECC with NTRU. 
+
+Basically, this article is highly inspired by William's Whyte's article
+https://blog.securityinnovation.com/blog/2013/08/king-rsa-cryptos-successor-why-we-need-to-move-away-from-a-monarchy.html
+
+ECC isn't so secure as you might think
+https://eprint.iacr.org/2015/1018.pdf
